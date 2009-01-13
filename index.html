@@ -1,13 +1,103 @@
-<html>
-  <head>
-    <title>Vent - A quick and easy browser-based Ajax chat server for ASP.NET.</title>
-    <style type="text/css">
-      body { font-family: sans-serif; font-size: 80%; }
-      h1 { font-size: 130%; }
-    </style>
-  </head>
-  <body>
-    <h1>Vent</h1>
-    <p>Not much to see here yet.</p>
-  </body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>Vent - A quick-and-easy browser-based Ajax chat application for ASP.NET.</title>
+	
+	<style type="text/css">
+		body {
+  		margin-top: 1.0em;
+  		background-color: black;
+		  font-family: "helvetica", sans-serif; 
+  		color: white;
+    }
+    #container {
+      margin: 0 auto;
+      width: 700px;
+    }
+		h1 { font-size: 3.8em; margin-bottom: 3px; }
+		h1 .small { font-size: 0.4em; }
+		h1 a { text-decoration: none }
+		h2 { font-size: 1.5em; color: #ffa; }
+    h3 { text-align: center; }
+    a { color: #bcf; text-decoration: none; }
+    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; }
+    .download { float: right; }
+		pre { background: #223; color: white; padding: 15px;}
+    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+    .footer { text-align:center; padding-top:30px; font-style: italic; }
+	</style>
+	
+</head>
+
+<body>
+  <a href="http://github.com/mogrify/vent"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
+  
+  <div id="container">
+
+    <div class="download">
+      <a href="http://github.com/mogrify/vent/zipball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
+      <a href="http://github.com/mogrify/vent/tarball/master">
+        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
+    </div>
+      
+    <h1><a href="http://github.com/mogrify/vent">Vent</a></h1>
+
+    <div class="description">
+      <p>Vent is a browser-based Ajax chat application for ASP.NET.</p>      
+    </div>
+
+    <p>Its goal is to be a simple, easy-to-deploy, easy-to-use chat room for people within a corporate Intranet.</p>
+    <p>Vent requires no database, and it uses Windows Integrated Authentication (NTLM), so all domain users can automatically use it with no additional configuration.</p>
+
+    <h2>Features</h2>
+    <ul>
+      <li>Users identified by their Windows username</li>
+      <li>No extra passwords required</li>
+      <li>Dynamic list of joined users</li>
+      <li>Public and private messages</li>
+      <li>Sounds played for events</li>
+      <li>Extensible: built on web services</li>
+    </ul>
+
+    <h2>Requirements</h2>
+    <ul>      
+      <li>IIS server with the .NET Framework 3.5</li>
+      <li>IE or Firefox for all users</li>
+      <li>Windows domain containing server, clients, and users</li>
+    </ul>
+
+    <h2>Setup</h2>
+    <ol>
+      <li>Copy to an IIS virtual directory.</li>
+      <li>Have users visit <tt>http://servername/directory/</tt> in their browsers.</li>
+    </ol>
+
+    <p>Vent uses <a href="http://jquery.com/">jQuery</a> and <a href="http://www.schillmania.com/projects/soundmanager2/">SoundManager</a>.</p>
+
+    <p><a href="http://www.opensource.org/licenses/mit-license.php">MIT</a> licensed. Contact <a href="tonygambone@gmail.com">Tony Gambone</a> for more information.</p>
+
+    <h2>Download</h2>
+    <p>
+      You can download this project in either
+      <a href="http://github.com/mogrify/vent/zipball/master">zip</a> or
+      <a href="http://github.com/mogrify/vent/tarball/master">tar</a> formats.
+    </p>
+    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+      by running:
+      <pre>$ git clone git://github.com/mogrify/vent</pre>
+    </p>
+      
+    <div class="footer">
+      get the source code on GitHub : <a href="http://github.com/mogrify/vent">mogrify/vent</a>
+    </div>
+    
+  </div>
+
+  
+</body>
 </html>
