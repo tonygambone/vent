@@ -26,11 +26,12 @@ This software uses third-party components under their own licenses,
 which can be found below.
 
 ==============================================
-jQuery / jQuery pageSlide plugin (MIT license)
+jQuery / jQuery SimpleModal plugin (MIT license)
 ==============================================
 
 jQuery is Copyright (c) 2008 John Resig, http://jquery.com/
-jQuery pageSlide is Copyright (c) 2009 Scott Robbin, http://halobrite.com/
+jQuery SimpleModal is (c) 2008 Eric Martin, 
+    http://www.ericmmartin.com/projects/simplemodal/
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

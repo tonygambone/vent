@@ -4,6 +4,19 @@
 	font-size: 80%;
 	background-color: black;
 	color: white;
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 6px;
+}
+
+form { margin: 0px; padding: 0px; }
+
+h1 
+{
+	margin: 0px !important;
+	font-size: 200%;
+	color: #333;
 }
 
 #container 
@@ -149,6 +162,8 @@ ul#users li
 #ctl_block a#helpctl 
 {
 	color: #ffa;
+	text-decoration: underline;
+	cursor: pointer;	
 }
 
 #message_block #message_privacy 
@@ -157,47 +172,50 @@ ul#users li
 	text-align: right;
 }
 
-/* pageslide stuff */
-
-#pageslide-body-wrap {
-    position: relative;
-}
-
-#pageslide-slide-wrap {
-    position: fixed;
-    width: 0;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background-color: #111;
-}
-
-#pageslide-content 
-{
-
-}
-
-#pageslide-content h2 {
-    color: #C60;
-}
-
-#help 
+#help_container 
 {
 	font-size: 90%;
-	padding: 4px;
+	padding: 16px;
+	width: 600px;
+	background-color: black;
+	border: 3px double #cdf;
+	display: none;
 }
 
-#help h1 
+#help h2 
 {
 	font-size: 115%;
 	margin-top: 0px;
 	color: #afa;
 }
 
-#help h2 
+#help h3 
 {
 	color: #ffa;
 	font-size: 110%;
+}
+
+#dialog_bg 
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	background-color: #679;
+	width: 100%;
+	height: 100%;
+	display: none;
+	cursor: wait;
+}
+
+#close_dialog 
+{
+	width: 25px;
+	float: right;
+	text-align: right;
+	color: red;
+	font-weight: bold;
+	font-size: 110%;
+	cursor: pointer;
 }
 
 

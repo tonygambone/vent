@@ -5,8 +5,8 @@
 // add a reference to SoundManager
 /// <reference path="~/soundmanager/script/soundmanager2.js"/>
 
-// add a reference to jQuery PageSlide
-/// <reference path="~/jquery.pageslide-0.2.js"/>
+// add a reference to jQuery SimpleModal
+/// <reference path="~/jquery.simplemodal.js"/>
 
 // settings
 var checkForUsersInterval = 10000;
@@ -107,10 +107,19 @@ $(document).ready(function() {
         $('#mutectl').text((soundEnabled) ? 'mute' : 'unmute');
     });
 
-    // set up the help pageSlide
-    $('#helpctl').pageSlide({
-        width: '600px'
+    // set the help click handler
+    $('#helpctl').click(function(e) {
+        e.preventDefault();
+        $('#help').modal({
+            close: false,
+            position: ["5%", "5%"],
+            overlayId: 'dialog_bg',
+            containerId: 'help_container'
+        });
     });
+
+    // set the modal close handler
+    $('#close_dialog').click(function() { $.modal.close(); });
 });
 
 function highlightPrivateMessage() {
