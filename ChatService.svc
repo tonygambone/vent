@@ -1,0 +1,4 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" 
+    Service="DEQServices.ChatService" 
+    CodeBehind="~/App_Code/ChatService.cs"
+    %>

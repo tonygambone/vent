@@ -1,0 +1,203 @@
+﻿body  
+{
+	font-family: sans-serif; 
+	font-size: 80%;
+	background-color: black;
+	color: white;
+}
+
+#container 
+{
+	width: 400px;
+	border: 1px solid #999;
+	background-color: #222;
+	padding: 8px;
+}
+
+input#join_leave 
+{
+	border: 1px solid #ddd;
+	border-right-color: #aaa;
+	border-bottom-color: #aaa;
+	background-color: #999;
+	font-size: 80%;
+	height: 1.5em;
+	color: white;
+}
+
+textarea#message 
+{
+	background-color: #ddd;
+	border: 1px solid #999;
+	font-family: sans-serif;
+	font-size: 90%;
+	padding: 4px;
+	width: 97%;
+}
+
+textarea#message.private 
+{
+	background-color: #fcc;
+}
+
+table#messages 
+{
+	border-collapse: collapse;
+	width: 100%;
+}
+
+table#messages td 
+{
+	vertical-align: top;
+	padding: 4px;
+	width: 100%;
+}
+
+table#messages td.msg_meta 
+{
+	white-space: nowrap;
+	background-color: #333;	
+	border-left: 1px solid #444;
+	width: 1%;
+	font-size: 90%;
+}
+
+table#messages .msg_user 
+{
+	font-weight: bold;
+}
+
+table#messages .msg_time 
+{
+	font-size: 90%;
+	font-style: italic;
+	color: #ddd;
+}
+
+table#messages tr.row_style_2 td.msg_meta
+{
+	background-color: #444;
+}
+
+table#messages tr.row_style_2 td.msg_text 
+{
+	background-color: #333;
+}
+
+.error  
+{
+	padding: 2px 4px;
+	background-color: #daa;
+	color: #300;
+	border: 1px solid #fee;
+	display: none;
+}
+
+#current_user, .current_user 
+{
+	font-weight: bold;
+	color: #bcf;
+}
+
+#users_block, 
+#messages_block,
+#status_block,
+#message_block
+{
+	margin-top: 6px; 
+}
+
+#error  
+{
+	margin-bottom: 6px; 
+}
+
+ul#users 
+{
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+ul#users li
+{
+	display: inline;
+	margin: 1px;
+	padding: 2px 4px;
+	border: 1px solid #ddd;
+	background-color: #555;
+	font-size: 80%;
+	float: left;
+	cursor: default;
+}
+
+#ctl_block 
+{
+	width: 30px;
+	float: right;
+	font-size: 70%;
+	text-align: right;
+}
+
+#ctl_block a#mutectl 
+{
+	color: #afa;
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+#ctl_block a#helpctl 
+{
+	color: #ffa;
+}
+
+#message_block #message_privacy 
+{
+	font-size: 70%;
+	text-align: right;
+}
+
+/* pageslide stuff */
+
+#pageslide-body-wrap {
+    position: relative;
+}
+
+#pageslide-slide-wrap {
+    position: fixed;
+    width: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: #111;
+}
+
+#pageslide-content 
+{
+
+}
+
+#pageslide-content h2 {
+    color: #C60;
+}
+
+#help 
+{
+	font-size: 90%;
+	padding: 4px;
+}
+
+#help h1 
+{
+	font-size: 115%;
+	margin-top: 0px;
+	color: #afa;
+}
+
+#help h2 
+{
+	color: #ffa;
+	font-size: 110%;
+}
+
+
