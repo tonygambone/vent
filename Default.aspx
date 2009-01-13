@@ -4,7 +4,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-    <title>Ajax Chat</title>
+    <title>Vent</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script type="text/javascript" src="jquery-1.2.6.min.js"></script>
     <script type="text/javascript" src="soundmanager/script/soundmanager2-nodebug-jsmin.js"></script>
